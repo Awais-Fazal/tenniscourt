@@ -1,0 +1,9 @@
+curl -X POST \
+  http://localhost:8080/booking/register \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+	"date":"04/09/2021",
+	"name":"Test",
+	"phoneNumber":"123456"
+}'
